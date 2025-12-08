@@ -1,18 +1,16 @@
-/* General Setup and Reset */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    margin: 20px;
+    
 }
 
 .navigation-container {
-    width: 1200px; /* Adjust as needed */
-    margin: 0 auto; /* Center the container */
-    border: 1px solid #000; /* Outer black border */
-    background-color: #fff; /* White background for the main content area */
-}
+    width: 1200px; 
+     margin: 0 auto; 
+    border: 1px solid #000; 
+    background-color: #fff; }
 
-/* Header Styling (Gray Area) */
+
 .nav-header {
     background-color: lightgray;
     padding: 10px 0;
@@ -22,48 +20,45 @@ body {
 .nav-header h1 {
     font-size: 16px;
     margin: 0;
-    color: #333; /* Darker text color */
-}
+    color: #333; }
 
 .website-word {
-    color: red; /* 'Website' in red */
-}
+    color: red; }
 
-/* Navigation Menu Layout */
+
 .nav-menu {
-    padding: 1px; /* Inner padding */
+    padding: 1px; 
     width: 300px
 }
 
 .nav-list {
-    list-style: none; /* Remove bullet points */
+    list-style: none; 
     padding: 0;
-    margin: 5px 0; /* Vertical space between rows */
-    display: flex; /* Arrange links horizontally */
-    gap: 10px; /* Space between buttons */
+    margin: 5px 0; 
+    display: flex; 
+    gap: 10px; 
 }
 
 .nav-list li {
-    /* Style for the container around the link */
-    flex-grow: 1; /* Make buttons grow to fill the space */
+    
+   
     text-align: center;
 }
 
-/* Link (Button) Styling */
+
 .nav-list a {
-    display: block; /* Make the entire area clickable */
+    display: block; 
     padding: 4px 7px;
     text-decoration: none;
     color: #333;
-    border: 1px ; /* Button border */
-    border-radius: 3px; /* Slightly rounded corners */
+    border: 1px ; 
+    border-radius: 3px; 
     font-size: 14px;
-    white-space: nowrap; /* Prevent text wrapping */
-}
+    white-space: nowrap; }
 
-/* Blue Buttons */
+
 .blue-links a {
-    background-color: lightblue; /* Light blue background */
+    background-color: lightblue; 
 
 }
 
@@ -72,9 +67,9 @@ body {
     color: white;
 }
 
-/* Green Buttons */
+
 .green-links a {
-    background-color: lightgreen; /* Light green background */
+    background-color: lightgreen; 
     
 }
 
